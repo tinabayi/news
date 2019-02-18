@@ -12,7 +12,7 @@ def index():
 
     # Getting business news
     business_news = get_news('business')
-    technology_news = get_movies('technology')
-    sports_news = get_movies('sports')
+    technology_news = get_news('technology')
+    sports_news = get_news('sports')
     title = 'Home - Welcome to News'
-    return render_template('index.html', title = title ,business_news = business_news,technology=technology_news,sport=sports_news)
+    return render_template('index.html', title = title ,business = business_news,technology=technology_news,sports=sports_news)
