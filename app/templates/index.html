@@ -11,6 +11,7 @@
         {% endif %}
     </head>
     <body>
+        <h2>Welcome to News highlights Website</h2>
      <!-- Popular movie section  -->
     <h3> Business News</h3>
     <ul>
@@ -26,7 +27,14 @@
     <ul>
     {{ macro.displayNewsList(sports)}}
     </ul>
-    
+    <h3>General News</h3>
+    <ul>
+    {{ macro.displayNewsList(general)}}
+    </ul>
+    <h3>Entertainment News</h3>
+    <ul>
+    {{ macro.displayNewsList(entertainment)}}
+    </ul>
     </body>
 </html>
 
