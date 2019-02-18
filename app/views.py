@@ -18,3 +18,5 @@ def index():
     entertainment_news=get_news('entertainment')
     title = 'Home - Welcome to News'
     return render_template('index.html', title = title ,business = business_news,technology=technology_news,sports=sports_news,general=general_news,entertainment=entertainment_news)
+
+    
