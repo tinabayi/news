@@ -22,7 +22,7 @@ on title it gives ariticles
 .Bootstrap
 .CSS
 ~~~
-###link to live site on GitHub Pages
+### link to live site on GitHub Pages
 ~~~
 https://github.com/tinabayi/news
 ~~~
