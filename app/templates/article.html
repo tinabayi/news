@@ -13,18 +13,16 @@
 <!-- Content block -->
 <!-- Content block -->
 {% block content %}
-
+<div class="container">
     {% for article in articles %}
     <!-- Poster background -->
         
         <h3>{{ article.title }}</h3>
         <img src='{{article.urlToImage}} ' alt="image loading"  height="200">
-        
-        
         <p class="description"> {{ article.description }}</p>
-        <p class="content"> <b> {{ article.content }}</b> - <i>{{ article.publishedAt}}  </i> </p>
+        <p class="publishedAt">Published on:{{ article.publishedAt}}</p>
 
     {%endfor%}
-    
+</div>
 
 {% endblock %}

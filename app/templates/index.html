@@ -21,32 +21,33 @@
     <body>
         
                 
-  <!-- Content block -->
+    <!-- Content block -->
 
-  {% block content %}
-
+    {% block content %}
+    <div class="jumbotron">
+   
     <h1>Welcome to News highlights Website</h1>
-                
+    </div>     
      <!-- Popular movie section  -->
-    <h2> Business News</h3>
+    <h2> BUSINESS NEWS</h3>
     <ul>
     {{ macro.displayNewsList(business)}}
     </ul>
     <!-- Tecnology news  -->
-    <h2> Technology News </h3>
+    <h2> TECHNOLOGY NEWS </h3>
     <ul>
     {{ macro.displayNewsList(technology)}}
     </ul>
     <!-- Now sports news-->
-    <h2>Sports News</h2>
+    <h2>SPORT NEWS</h2>
     <ul>
     {{ macro.displayNewsList(sports)}}
     </ul>
-    <h2>General News</h2>
+    <h2>GENERAL NEWS</h2>
     <ul>
     {{ macro.displayNewsList(general)}}
     </ul>
-    <h2>Entertainment News</h3>
+    <h2>ENTERTAINMENT NEWS</h3>
     <ul>
     {{ macro.displayNewsList(entertainment)}}
     </ul>
