@@ -21,3 +21,13 @@ def index():
     return render_template('index.html', title = title ,business = business_news,technology=technology_news,sports=sports_news,general=general_news,entertainment=entertainment_news)
 
     
+@app.route('/article/<int:id>')
+def movie(id):
+
+    '''
+    View article  page function that returns the article details page and its data
+    '''
+    article = get_article(id)
+    title = f'{article.title}'
+
+    return render_template('article.html',title = title,article = article)
