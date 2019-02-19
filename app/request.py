@@ -89,7 +89,7 @@ def process_articles(articles_list):
 
         if image:
             articles_result = Article(
-                id, author, title, description, url, image, date, content)
+                id, author, title, description,url,image, date, content)
             articles_object.append(articles_result)
 
     return articles_object

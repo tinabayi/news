@@ -6,7 +6,9 @@
     <!-- Poster background -->
         
         <h3>{{ article.title }}</h3>
-        <p class="urlToImage"> {{article.urlToImage}}</p>
+        <img src='{{article.urlToImage}} ' alt="image loading"  height="200">
+        
+        
         <p class="description"> {{ article.description }}</p>
         <p class="content"> <b> {{ article.content }}</b> - <i>{{ article.publishedAt}}  </i> </p>
 
