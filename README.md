@@ -22,6 +22,10 @@ on title it gives ariticles
 .Bootstrap
 .CSS
 ~~~
+###link to live site on GitHub Pages
+~~~
+https://github.com/tinabayi/news
+~~~
 ###  license information.
 ~~~
 This project is licensed under the MIT License - see the LICENSE.md file for details
