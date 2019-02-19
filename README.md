@@ -2,4 +2,8 @@
 ~~~
 News highlight
 ~~~
-###P
+### Author
+~~~
+Bayizere christine
+~~~
+###
