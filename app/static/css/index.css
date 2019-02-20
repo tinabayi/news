@@ -1,9 +1,12 @@
 body{
     background-color:rgb(235, 231, 231);
+    margin-left: 300px;
+   
 }
 h2{
-    text-align: center;
+    
     color:red;
+    margin-left:300px; 
    
 }
 #link{
@@ -17,4 +20,9 @@ h1{
 }
 #description{
     font-family: cursive;
+    font-size: 30px;
+}
+.jumbotron{
+    background-image:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/UhGJuGw/extra-newspaper-headline-reveal-and-loop-4k-hd-animation_vkbhtmcnl__F0004.png);
+    color:red;
 }
