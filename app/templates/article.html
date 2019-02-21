@@ -21,6 +21,8 @@
         <img src='{{article.urlToImage}} ' alt="image loading"  height="200">
         <p class="description"> {{ article.description }}</p>
         <p class="publishedAt">Published on:{{ article.publishedAt}}</p>
+        <a id="link" href="{{article.url}}" target="_blank">Read more</a>
+
 
     {%endfor%}
 </div>
